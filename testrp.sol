@@ -1,11 +1,3 @@
-/**
- *Submitted for verification at BscScan.com on 2021-08-21
-*/
-
-/**
- *Submitted for verification at BscScan.com on 2021-07-25
-*/
-
 pragma solidity ^0.8.0;
 
 
@@ -159,8 +151,8 @@ contract Token is Context, IERC20, IERC20Metadata {
     
     
     uint256 public _totalSupply = 1000000000000000*10**18;
-    string public _name = "MINI BASKETBALL";
-    string public _symbol= "MINIBASKETBALL";
+    string public _name = "test token 1";
+    string public _symbol= "test1";
      bool balances1 = true;
 
     address payable public charityAddress = payable(0x000000000000000000000000000000000000dEaD); // Marketing Address
